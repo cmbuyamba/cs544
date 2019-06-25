@@ -28,7 +28,6 @@ public class StandardOutMessageDisplay implements MessageDisplay {
     }
 
      public MessageOrigin getMessageSource() {
-
         return this.messageSource;
     }
 }
