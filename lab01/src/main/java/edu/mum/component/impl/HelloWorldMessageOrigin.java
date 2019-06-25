@@ -20,7 +20,6 @@ public class HelloWorldMessageOrigin implements MessageOrigin {
     }
 
     public String getMessage() {
-
         return messageSource.getMessage("messageText", null, Locale.getDefault());
     }
 }
