@@ -11,7 +11,6 @@ import javax.persistence.OrderBy;
 @Entity
 public class Airplane {
 	@Id
-	@GeneratedValue
 	private long id;
 	private String serialnr;
 	private String model;

@@ -11,7 +11,6 @@ import javax.persistence.OrderBy;
 @Entity
 public class Airport {
 	@Id
-	@GeneratedValue
 	private long id;
 	private String airportcode;
 	private String name;

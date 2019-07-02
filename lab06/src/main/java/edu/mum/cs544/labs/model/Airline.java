@@ -11,7 +11,6 @@ import javax.persistence.OrderBy;
 @Entity
 public class Airline {
     @Id
-    @GeneratedValue
     private long id;
     private String name;
     @OneToMany(mappedBy = "airline")

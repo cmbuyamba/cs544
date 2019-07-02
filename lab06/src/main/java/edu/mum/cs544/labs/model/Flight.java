@@ -15,7 +15,6 @@ import javax.persistence.TemporalType;
 @Entity
 public class Flight {
 	@Id
-	@GeneratedValue
 	private long id;
 	private String flightnr;
 	@Temporal(TemporalType.DATE)
